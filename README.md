@@ -76,7 +76,7 @@ The application uses MongoDB as the database. You can configure the database con
 
 javascript
 
-mongoose.connect('mongodb://0.0.0.0:27017/url_shortener', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+    mongoose.connect('mongodb://0.0.0.0:27017/url_shortener', {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
